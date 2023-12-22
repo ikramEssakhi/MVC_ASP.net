@@ -1,0 +1,12 @@
+30/11/2023 00:31:18 [Information] Now listening on: http://localhost:5000
+30/11/2023 00:31:18 [Information] Application started. Press Ctrl+C to shut down.
+30/11/2023 00:31:18 [Information] Hosting environment: Production
+30/11/2023 00:31:18 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2\bin\Debug\net7.0
+30/11/2023 00:32:19 [Information] Now listening on: http://localhost:5000
+30/11/2023 00:32:19 [Information] Application started. Press Ctrl+C to shut down.
+30/11/2023 00:32:19 [Information] Hosting environment: Production
+30/11/2023 00:32:19 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2\bin\Debug\net7.0
+30/11/2023 00:33:08 [Information] Now listening on: http://localhost:5000
+30/11/2023 00:33:08 [Information] Application started. Press Ctrl+C to shut down.
+30/11/2023 00:33:08 [Information] Hosting environment: Production
+30/11/2023 00:33:08 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2\bin\Debug\net7.0

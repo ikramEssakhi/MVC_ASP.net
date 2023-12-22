@@ -1,0 +1,74 @@
+﻿@model WebApplication2.Models.Product
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        
+
+        .login-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-header {
+            text-align: center;
+            color: #dc3545;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .form-label {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .form-input {
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .form-button {
+            padding: 10px;
+            background-color: #dc3545;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .form-button:hover {
+                background-color: #c82333;
+            }
+    </style>
+</head>
+<body >
+    <div class="login-container">
+        <h2 class="login-header">Login</h2>
+        <form class="login-form" asp-controller="Account" asp-action="Login" method="post">
+            <div>
+                <label class="form-label">Username:</label>
+                <input class="form-input" name="username" />
+            </div>
+            <div>
+                <label class="form-label">Password:</label>
+                <input class="form-input" name="password" type="password" />
+            </div>
+            <div>
+                <button class="form-button" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

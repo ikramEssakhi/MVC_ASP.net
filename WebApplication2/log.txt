@@ -1,0 +1,2081 @@
+28/11/2023 12:05:19 [Information] Now listening on: https://localhost:7137
+28/11/2023 12:05:19 [Information] Now listening on: http://localhost:5051
+28/11/2023 12:05:19 [Information] Application started. Press Ctrl+C to shut down.
+28/11/2023 12:05:19 [Information] Hosting environment: Development
+28/11/2023 12:05:19 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+28/11/2023 12:05:47 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+28/11/2023 12:05:53 [Information] Executed DbCommand (97ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+28/11/2023 12:06:20 [Information] Executed DbCommand (99ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+28/11/2023 12:06:21 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:36:28 [Information] Now listening on: https://localhost:7137
+30/11/2023 00:36:28 [Information] Now listening on: http://localhost:5051
+30/11/2023 00:36:28 [Information] Application started. Press Ctrl+C to shut down.
+30/11/2023 00:36:28 [Information] Hosting environment: Development
+30/11/2023 00:36:28 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+30/11/2023 00:36:40 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+30/11/2023 00:36:45 [Information] Executed DbCommand (95ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:36:54 [Information] Executed DbCommand (173ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+30/11/2023 00:36:56 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:37:00 [Information] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+30/11/2023 00:37:49 [Information] Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:37:58 [Information] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+30/11/2023 00:37:59 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:39:55 [Information] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+30/11/2023 00:39:58 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:40:01 [Information] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+30/11/2023 00:40:03 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:40:27 [Information] Executed DbCommand (49ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+30/11/2023 00:40:27 [Information] Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:41:20 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+30/11/2023 00:41:26 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart]
+OUTPUT INSERTED.[Id]
+DEFAULT VALUES;
+30/11/2023 00:41:26 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+30/11/2023 00:41:31 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart]
+OUTPUT INSERTED.[Id]
+DEFAULT VALUES;
+30/11/2023 00:41:31 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+30/11/2023 00:41:34 [Information] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__id_0
+30/11/2023 00:41:35 [Information] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__p_0
+30/11/2023 00:41:35 [Information] Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Cart]
+OUTPUT 1
+WHERE [Id] = @p0;
+30/11/2023 00:41:35 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+30/11/2023 00:41:36 [Information] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__id_0
+30/11/2023 00:41:37 [Information] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__p_0
+30/11/2023 00:41:37 [Information] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Cart]
+OUTPUT 1
+WHERE [Id] = @p0;
+30/11/2023 00:41:37 [Information] Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+30/11/2023 00:41:41 [Information] Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+30/11/2023 00:41:55 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+05/12/2023 16:16:52 [Information] Now listening on: https://localhost:7137
+05/12/2023 16:16:52 [Information] Now listening on: http://localhost:5051
+05/12/2023 16:16:52 [Information] Application started. Press Ctrl+C to shut down.
+05/12/2023 16:16:52 [Information] Hosting environment: Development
+05/12/2023 16:16:52 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+05/12/2023 16:17:31 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+05/12/2023 16:17:36 [Information] Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+05/12/2023 16:26:23 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 16:26:29 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 16:26:34 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:27:09 [Information] Executed DbCommand (382ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Item] ([ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+05/12/2023 16:27:09 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:27:17 [Information] Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 16:27:25 [Information] Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart]
+OUTPUT INSERTED.[Id]
+DEFAULT VALUES;
+05/12/2023 16:27:25 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 16:27:27 [Information] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__p_0
+05/12/2023 16:27:29 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 16:27:48 [Information] Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:27:50 [Information] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+WHERE [i].[Id] = @__id_0
+05/12/2023 16:27:52 [Information] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+WHERE [i].[Id] = @__p_0
+05/12/2023 16:27:52 [Information] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Item]
+OUTPUT 1
+WHERE [Id] = @p0;
+05/12/2023 16:27:52 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:27:57 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:28:05 [Information] Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+05/12/2023 16:28:07 [Information] Executed DbCommand (19ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+05/12/2023 16:28:11 [Information] Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+05/12/2023 16:28:14 [Information] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+05/12/2023 16:28:21 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:28:26 [Information] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Item] ([ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+05/12/2023 16:28:26 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[Id], [i].[ProductId], [i].[Product_Id]
+FROM [Item] AS [i]
+05/12/2023 16:28:34 [Information] Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 16:28:37 [Information] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__id_0
+05/12/2023 16:28:39 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id]
+FROM [Cart] AS [c]
+05/12/2023 17:03:24 [Information] Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+05/12/2023 17:03:31 [Information] Executed DbCommand (5ms) [Parameters=[@__searchString_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE (@__searchString_0 LIKE N'') OR CHARINDEX(@__searchString_0, [p].[Title]) > 0
+05/12/2023 19:01:07 [Information] Executed DbCommand (392ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+05/12/2023 19:01:16 [Information] Executed DbCommand (633ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:18:12 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:18:12 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:18:12 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:18:12 [Information] Hosting environment: Development
+06/12/2023 10:18:12 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:18:28 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:18:35 [Information] Executed DbCommand (126ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:19:24 [Information] Executed DbCommand (520ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+06/12/2023 10:19:24 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:19:36 [Information] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+06/12/2023 10:19:38 [Information] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+06/12/2023 10:19:38 [Information] Executed DbCommand (18ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:19:38 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:25:10 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:25:11 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:25:25 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:25:27 [Information] Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+06/12/2023 10:25:28 [Information] Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+06/12/2023 10:25:28 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+06/12/2023 10:25:28 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+06/12/2023 10:25:28 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+06/12/2023 10:25:28 [Information] Applying migration '20231206092511_tstst'.
+06/12/2023 10:25:28 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DROP TABLE [CartItem];
+06/12/2023 10:25:28 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DROP TABLE [Cart];
+06/12/2023 10:25:28 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+DROP TABLE [Item];
+06/12/2023 10:25:28 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231206092511_tstst', N'7.0.12');
+06/12/2023 10:25:40 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:25:40 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:25:40 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:25:40 [Information] Hosting environment: Development
+06/12/2023 10:25:40 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:25:52 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:25:54 [Information] Executed DbCommand (85ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:25:58 [Information] Executed DbCommand (61ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+06/12/2023 10:26:07 [Information] Executed DbCommand (34ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Product] SET [Genre] = @p0, [Price] = @p1, [ReleaseDate] = @p2, [Title] = @p3, [imagePath] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+06/12/2023 10:26:08 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:26:51 [Information] Executed DbCommand (22ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+06/12/2023 10:26:51 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:26:53 [Information] Executed DbCommand (30ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+06/12/2023 10:26:55 [Information] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+06/12/2023 10:26:55 [Information] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:26:55 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:33:52 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:34:54 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:36:51 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:36:51 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:37:09 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:37:13 [Information] Executed DbCommand (197ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+06/12/2023 10:37:13 [Information] Executed DbCommand (214ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+06/12/2023 10:37:14 [Information] Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+06/12/2023 10:37:14 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+06/12/2023 10:37:14 [Information] Executed DbCommand (470ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+06/12/2023 10:37:14 [Information] Applying migration '20231206093651_mycart'.
+06/12/2023 10:37:14 [Information] Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Cart] (
+    [Id] int NOT NULL IDENTITY,
+    CONSTRAINT [PK_Cart] PRIMARY KEY ([Id])
+);
+06/12/2023 10:37:14 [Information] Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [CartItem] (
+    [Id] int NOT NULL IDENTITY,
+    [ProductId] int NULL,
+    [Product_Id] int NOT NULL,
+    [CartId] int NULL,
+    [Cart_Id] int NOT NULL,
+    CONSTRAINT [PK_CartItem] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_CartItem_Cart_CartId] FOREIGN KEY ([CartId]) REFERENCES [Cart] ([Id]),
+    CONSTRAINT [FK_CartItem_Product_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Product] ([Id])
+);
+06/12/2023 10:37:15 [Information] Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_CartItem_CartId] ON [CartItem] ([CartId]);
+06/12/2023 10:37:15 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE INDEX [IX_CartItem_ProductId] ON [CartItem] ([ProductId]);
+06/12/2023 10:37:15 [Information] Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231206093651_mycart', N'7.0.12');
+06/12/2023 10:37:27 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:37:27 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:37:27 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:37:27 [Information] Hosting environment: Development
+06/12/2023 10:37:27 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:37:56 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:37:57 [Information] Executed DbCommand (130ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:38:03 [Information] Executed DbCommand (83ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:38:03 [Information] Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:38:22 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:38:26 [Information] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:38:26 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:38:31 [Information] Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:38:53 [Information] Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+06/12/2023 10:39:01 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:39:03 [Information] Executed DbCommand (26ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:39:03 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:39:09 [Information] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:39:13 [Information] Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:39:16 [Information] Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:39:57 [Information] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:39:57 [Information] Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:00 [Information] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:40:02 [Information] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:40:02 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:40:02 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:03 [Information] Executed DbCommand (24ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:40:05 [Information] Executed DbCommand (82ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:40:05 [Information] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:40:05 [Information] Executed DbCommand (112ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:07 [Information] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:40:10 [Information] Executed DbCommand (204ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:40:10 [Information] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:40:10 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:14 [Information] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:40:15 [Information] Executed DbCommand (30ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:40:16 [Information] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:40:16 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:22 [Information] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:40:26 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:40:29 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:40:29 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:35 [Information] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:40:37 [Information] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:40:37 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:40:50 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:40:57 [Information] Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+06/12/2023 10:41:19 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:41:30 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:41:30 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:41:38 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:41:41 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+06/12/2023 10:42:10 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:44:37 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:44:37 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:44:37 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:44:37 [Information] Hosting environment: Development
+06/12/2023 10:44:37 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:44:56 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:44:59 [Information] Executed DbCommand (97ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:46:15 [Information] Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:46:39 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:46:39 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:46:39 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:46:39 [Information] Hosting environment: Development
+06/12/2023 10:46:39 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:47:38 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:47:40 [Information] Executed DbCommand (122ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:50:16 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:50:16 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:50:16 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:50:16 [Information] Hosting environment: Development
+06/12/2023 10:50:16 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:50:34 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:50:36 [Information] Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:50:57 [Information] Executed DbCommand (61ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:50:57 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:51:10 [Information] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:51:11 [Information] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:51:11 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:51:12 [Information] Executed DbCommand (212ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:51:14 [Information] Executed DbCommand (45ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:51:15 [Information] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:51:15 [Information] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:51:15 [Information] Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:51:17 [Information] Executed DbCommand (32ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:51:18 [Information] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:51:18 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:51:18 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:51:19 [Information] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:51:21 [Information] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:51:21 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:51:21 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:51:37 [Information] Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+06/12/2023 10:51:39 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Cart]
+OUTPUT INSERTED.[Id]
+DEFAULT VALUES;
+06/12/2023 10:51:39 [Information] Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+06/12/2023 10:51:43 [Information] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__id_0
+06/12/2023 10:51:44 [Information] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id]
+FROM [Cart] AS [c]
+WHERE [c].[Id] = @__p_0
+06/12/2023 10:51:44 [Information] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Cart]
+OUTPUT 1
+WHERE [Id] = @p0;
+06/12/2023 10:51:44 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+06/12/2023 10:51:49 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:51:51 [Information] Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:51:51 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:51:55 [Information] Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:51:57 [Information] Executed DbCommand (35ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+06/12/2023 10:51:57 [Information] Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:52:10 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:52:26 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+06/12/2023 10:53:53 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:53:53 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:53:53 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:53:53 [Information] Hosting environment: Development
+06/12/2023 10:53:53 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:56:54 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:56:56 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:57:55 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:57:55 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:57:55 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:57:55 [Information] Hosting environment: Development
+06/12/2023 10:57:55 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:58:01 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:58:04 [Information] Executed DbCommand (130ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:58:33 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:59:14 [Information] Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 10:59:46 [Information] Now listening on: https://localhost:7137
+06/12/2023 10:59:46 [Information] Now listening on: http://localhost:5051
+06/12/2023 10:59:46 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 10:59:46 [Information] Hosting environment: Development
+06/12/2023 10:59:46 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 10:59:51 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 10:59:54 [Information] Executed DbCommand (111ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:00:52 [Information] Executed DbCommand (151ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+06/12/2023 11:00:52 [Information] Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:01:16 [Information] Executed DbCommand (21ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+06/12/2023 11:01:16 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:03:47 [Information] Now listening on: https://localhost:7137
+06/12/2023 11:03:47 [Information] Now listening on: http://localhost:5051
+06/12/2023 11:03:47 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 11:03:47 [Information] Hosting environment: Development
+06/12/2023 11:03:47 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 11:03:54 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 11:03:58 [Information] Executed DbCommand (202ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:11:07 [Information] Now listening on: https://localhost:7137
+06/12/2023 11:11:07 [Information] Now listening on: http://localhost:5051
+06/12/2023 11:11:07 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 11:11:07 [Information] Hosting environment: Development
+06/12/2023 11:11:07 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 11:11:12 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 11:11:15 [Information] Executed DbCommand (212ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:13:27 [Information] Now listening on: https://localhost:7137
+06/12/2023 11:13:28 [Information] Now listening on: http://localhost:5051
+06/12/2023 11:13:28 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 11:13:28 [Information] Hosting environment: Development
+06/12/2023 11:13:28 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 11:13:32 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 11:13:37 [Information] Executed DbCommand (101ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:14:49 [Information] Now listening on: https://localhost:7137
+06/12/2023 11:14:49 [Information] Now listening on: http://localhost:5051
+06/12/2023 11:14:49 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 11:14:49 [Information] Hosting environment: Development
+06/12/2023 11:14:49 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 11:14:54 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 11:14:57 [Information] Executed DbCommand (99ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:16:19 [Information] Now listening on: https://localhost:7137
+06/12/2023 11:16:19 [Information] Now listening on: http://localhost:5051
+06/12/2023 11:16:19 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 11:16:19 [Information] Hosting environment: Development
+06/12/2023 11:16:19 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 11:16:27 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 11:16:31 [Information] Executed DbCommand (141ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+06/12/2023 11:20:45 [Information] Now listening on: https://localhost:7137
+06/12/2023 11:20:45 [Information] Now listening on: http://localhost:5051
+06/12/2023 11:20:45 [Information] Application started. Press Ctrl+C to shut down.
+06/12/2023 11:20:45 [Information] Hosting environment: Development
+06/12/2023 11:20:45 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+06/12/2023 11:20:50 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+06/12/2023 11:20:54 [Information] Executed DbCommand (166ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 09:52:02 [Information] Now listening on: https://localhost:7137
+08/12/2023 09:52:02 [Information] Now listening on: http://localhost:5051
+08/12/2023 09:52:02 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 09:52:02 [Information] Hosting environment: Development
+08/12/2023 09:52:02 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 09:52:07 [Error] An unhandled exception has occurred while executing the request.
+08/12/2023 09:52:17 [Error] An unhandled exception has occurred while executing the request.
+08/12/2023 09:52:58 [Information] Now listening on: https://localhost:7137
+08/12/2023 09:52:58 [Information] Now listening on: http://localhost:5051
+08/12/2023 09:52:58 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 09:52:58 [Information] Hosting environment: Development
+08/12/2023 09:52:58 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 09:53:10 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+08/12/2023 09:53:23 [Information] Executed DbCommand (104ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 09:54:46 [Information] Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:12:28 [Information] Now listening on: https://localhost:7137
+08/12/2023 10:12:28 [Information] Now listening on: http://localhost:5051
+08/12/2023 10:12:28 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 10:12:28 [Information] Hosting environment: Development
+08/12/2023 10:12:28 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 10:12:32 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+08/12/2023 10:12:35 [Information] Executed DbCommand (81ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:16:52 [Information] Now listening on: https://localhost:7137
+08/12/2023 10:16:52 [Information] Now listening on: http://localhost:5051
+08/12/2023 10:16:52 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 10:16:52 [Information] Hosting environment: Development
+08/12/2023 10:16:52 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 10:16:57 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+08/12/2023 10:17:02 [Information] Executed DbCommand (110ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:17:22 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:17:29 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:17:43 [Information] Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+08/12/2023 10:17:45 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:17:48 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:18:08 [Information] Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 10:31:47 [Information] Now listening on: https://localhost:7137
+08/12/2023 10:31:47 [Information] Now listening on: http://localhost:5051
+08/12/2023 10:31:47 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 10:31:47 [Information] Hosting environment: Development
+08/12/2023 10:31:47 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 10:31:51 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+08/12/2023 10:31:55 [Information] Executed DbCommand (79ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 11:24:20 [Information] Now listening on: https://localhost:7137
+08/12/2023 11:24:20 [Information] Now listening on: http://localhost:5051
+08/12/2023 11:24:20 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 11:24:20 [Information] Hosting environment: Development
+08/12/2023 11:24:20 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 11:24:24 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+08/12/2023 11:24:29 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 11:24:40 [Information] Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+08/12/2023 11:26:45 [Information] Now listening on: https://localhost:7137
+08/12/2023 11:26:45 [Information] Now listening on: http://localhost:5051
+08/12/2023 11:26:45 [Information] Application started. Press Ctrl+C to shut down.
+08/12/2023 11:26:45 [Information] Hosting environment: Development
+08/12/2023 11:26:45 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+08/12/2023 11:26:50 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+08/12/2023 11:26:52 [Information] Executed DbCommand (92ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:28:30 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:28:30 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:28:30 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:28:30 [Information] Hosting environment: Development
+21/12/2023 18:28:30 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:28:38 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:28:44 [Information] Executed DbCommand (107ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:28:57 [Information] Executed DbCommand (117ms) [Parameters=[@__searchString_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE (@__searchString_0 LIKE N'') OR CHARINDEX(@__searchString_0, [p].[Title]) > 0
+21/12/2023 18:29:08 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:31:05 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:31:07 [Information] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+21/12/2023 18:31:09 [Information] Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:31:10 [Information] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 18:31:12 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:31:15 [Information] Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 18:31:17 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:31:21 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:33:15 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:33:15 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:33:15 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:33:15 [Information] Hosting environment: Development
+21/12/2023 18:33:15 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:33:21 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:33:23 [Information] Executed DbCommand (137ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:34:18 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:35:08 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:35:08 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:35:08 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:35:08 [Information] Hosting environment: Development
+21/12/2023 18:35:08 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:35:11 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:35:13 [Information] Executed DbCommand (84ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:35:17 [Information] Executed DbCommand (103ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+21/12/2023 18:35:18 [Information] Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:20 [Information] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 18:35:22 [Information] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 18:35:22 [Information] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 18:35:22 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:23 [Information] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 18:35:24 [Information] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 18:35:24 [Information] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 18:35:24 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:26 [Information] Executed DbCommand (16ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 18:35:27 [Information] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 18:35:27 [Information] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 18:35:27 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:30 [Information] Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 18:35:31 [Information] Executed DbCommand (104ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:31 [Information] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 18:35:31 [Information] Executed DbCommand (143ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:31 [Information] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 18:35:32 [Information] Executed DbCommand (197ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:35:33 [Information] Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:36:00 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:36:03 [Information] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+21/12/2023 18:36:03 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:36:12 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:36:21 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c0].[Id], [c0].[CartId], [c0].[Cart_Id], [c0].[ProductId], [c0].[Product_Id]
+FROM [Cart] AS [c]
+LEFT JOIN [CartItem] AS [c0] ON [c].[Id] = [c0].[CartId]
+ORDER BY [c].[Id]
+21/12/2023 18:36:29 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 18:36:33 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:37:12 [Information] Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:49:36 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:49:36 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:49:36 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:49:36 [Information] Hosting environment: Development
+21/12/2023 18:49:36 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:50:20 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:50:20 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:50:20 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:50:20 [Information] Hosting environment: Development
+21/12/2023 18:50:20 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:50:26 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:50:32 [Information] Executed DbCommand (110ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:51:48 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:51:48 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:51:49 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:51:49 [Information] Hosting environment: Development
+21/12/2023 18:51:49 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:51:53 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:51:55 [Information] Executed DbCommand (108ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:52:06 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:52:41 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:56:09 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:56:09 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:56:09 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:56:09 [Information] Hosting environment: Development
+21/12/2023 18:56:09 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:56:15 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:56:21 [Information] Executed DbCommand (426ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:56:49 [Information] Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 18:59:16 [Information] Now listening on: https://localhost:7137
+21/12/2023 18:59:16 [Information] Now listening on: http://localhost:5051
+21/12/2023 18:59:16 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 18:59:16 [Information] Hosting environment: Development
+21/12/2023 18:59:16 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 18:59:30 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 18:59:36 [Information] Executed DbCommand (207ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:03:58 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:03:58 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:03:58 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:03:58 [Information] Hosting environment: Development
+21/12/2023 19:03:58 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:04:08 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:04:12 [Information] Executed DbCommand (185ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:04:16 [Error] The view 'Login' was not found. Searched locations: /Views/Account/Login.cshtml, /Views/Shared/Login.cshtml
+21/12/2023 19:04:16 [Error] An unhandled exception has occurred while executing the request.
+21/12/2023 19:05:21 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:05:21 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:05:21 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:05:21 [Information] Hosting environment: Development
+21/12/2023 19:05:21 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:05:25 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:05:27 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:05:49 [Information] Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:07:48 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:07:48 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:07:48 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:07:48 [Information] Hosting environment: Development
+21/12/2023 19:07:48 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:07:54 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:07:56 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:10:25 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:10:25 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:10:25 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:10:25 [Information] Hosting environment: Development
+21/12/2023 19:10:25 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:10:31 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:10:34 [Information] Executed DbCommand (151ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:11:56 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:11:56 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:11:56 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:11:56 [Information] Hosting environment: Development
+21/12/2023 19:11:56 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:12:02 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:12:05 [Information] Executed DbCommand (127ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:15:33 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:15:33 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:15:33 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:15:33 [Information] Hosting environment: Development
+21/12/2023 19:15:33 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:15:37 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:15:39 [Information] Executed DbCommand (96ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:17:56 [Information] Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:18:18 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:18:18 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:18:18 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:18:18 [Information] Hosting environment: Development
+21/12/2023 19:18:18 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:18:25 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:18:27 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:20:36 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:20:36 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:20:36 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:20:36 [Information] Hosting environment: Development
+21/12/2023 19:20:36 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:20:41 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:20:44 [Information] Executed DbCommand (126ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:23:18 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:23:18 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:23:18 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:23:18 [Information] Hosting environment: Development
+21/12/2023 19:23:18 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:23:25 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:23:27 [Information] Executed DbCommand (99ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:23:53 [Information] Executed DbCommand (266ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+21/12/2023 19:23:53 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:23:56 [Information] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 19:23:57 [Information] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+21/12/2023 19:23:57 [Information] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 19:23:57 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:24:06 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:28:59 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:28:59 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:28:59 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:28:59 [Information] Hosting environment: Development
+21/12/2023 19:28:59 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:29:03 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:29:06 [Information] Executed DbCommand (150ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:29:29 [Information] Executed DbCommand (70ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+21/12/2023 19:29:29 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:29:40 [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:37:55 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:37:55 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:37:55 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:37:55 [Information] Hosting environment: Development
+21/12/2023 19:37:55 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:38:04 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:38:08 [Information] Executed DbCommand (109ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:38:31 [Information] Executed DbCommand (83ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+21/12/2023 19:38:32 [Information] Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 19:38:32 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+21/12/2023 19:38:50 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+21/12/2023 19:38:50 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 19:44:49 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:44:49 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:44:49 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:44:49 [Information] Hosting environment: Development
+21/12/2023 19:44:49 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:44:54 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:44:57 [Information] Executed DbCommand (63ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:45:01 [Information] Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 19:51:02 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:51:02 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:51:02 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:51:02 [Information] Hosting environment: Development
+21/12/2023 19:51:02 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:51:12 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:51:14 [Information] Executed DbCommand (166ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:51:44 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:51:44 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:51:44 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:51:44 [Information] Hosting environment: Development
+21/12/2023 19:51:44 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:51:49 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:51:52 [Information] Executed DbCommand (95ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:55:55 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:55:55 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:55:55 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:55:55 [Information] Hosting environment: Development
+21/12/2023 19:55:55 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:55:59 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:56:01 [Information] Executed DbCommand (75ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:57:33 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:57:33 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:57:33 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:57:33 [Information] Hosting environment: Development
+21/12/2023 19:57:33 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:57:39 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:57:42 [Information] Executed DbCommand (195ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 19:59:06 [Information] Now listening on: https://localhost:7137
+21/12/2023 19:59:06 [Information] Now listening on: http://localhost:5051
+21/12/2023 19:59:06 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 19:59:06 [Information] Hosting environment: Development
+21/12/2023 19:59:06 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 19:59:12 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 19:59:15 [Information] Executed DbCommand (129ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:00:44 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:00:44 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:00:44 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:00:44 [Information] Hosting environment: Development
+21/12/2023 20:00:44 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:00:49 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:00:53 [Information] Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:02:42 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:02:42 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:02:42 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:02:42 [Information] Hosting environment: Development
+21/12/2023 20:02:42 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:02:47 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:02:49 [Information] Executed DbCommand (84ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:05:15 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:05:15 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:05:15 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:05:15 [Information] Hosting environment: Development
+21/12/2023 20:05:15 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:05:21 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:05:25 [Information] Executed DbCommand (156ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:07:19 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:07:19 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:07:19 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:07:19 [Information] Hosting environment: Development
+21/12/2023 20:07:19 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:07:24 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:07:26 [Information] Executed DbCommand (94ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:09:16 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:09:16 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:09:16 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:09:16 [Information] Hosting environment: Development
+21/12/2023 20:09:16 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:09:22 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:09:24 [Information] Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:10:15 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:10:16 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:10:16 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:10:16 [Information] Hosting environment: Development
+21/12/2023 20:10:16 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:10:21 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:10:24 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:12:03 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:12:03 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:12:03 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:12:03 [Information] Hosting environment: Development
+21/12/2023 20:12:03 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:12:08 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:12:10 [Information] Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:12:55 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:12:55 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:12:55 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:12:55 [Information] Hosting environment: Development
+21/12/2023 20:12:55 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:13:02 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:13:08 [Information] Executed DbCommand (107ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:14:08 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:14:08 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:14:08 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:14:08 [Information] Hosting environment: Development
+21/12/2023 20:14:08 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:14:18 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:14:21 [Information] Executed DbCommand (102ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:16:02 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:16:02 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:16:02 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:16:02 [Information] Hosting environment: Development
+21/12/2023 20:16:02 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:16:07 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:16:09 [Information] Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:17:02 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:17:02 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:17:02 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:17:02 [Information] Hosting environment: Development
+21/12/2023 20:17:02 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:17:07 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:17:09 [Information] Executed DbCommand (73ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:19:05 [Information] Executed DbCommand (142ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+21/12/2023 20:19:15 [Information] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 20:19:17 [Information] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+21/12/2023 20:19:17 [Information] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:19:19 [Information] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 20:19:28 [Information] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 20:19:48 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:19:48 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:19:48 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:19:48 [Information] Hosting environment: Development
+21/12/2023 20:19:48 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:19:52 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:19:56 [Information] Executed DbCommand (123ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:20:05 [Information] Executed DbCommand (117ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 20:20:07 [Information] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+21/12/2023 20:20:07 [Information] Executed DbCommand (28ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:21:40 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:21:40 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:21:40 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:21:40 [Information] Hosting environment: Development
+21/12/2023 20:21:40 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:21:46 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:21:47 [Information] Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:22:08 [Information] Executed DbCommand (150ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+21/12/2023 20:22:09 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:22:11 [Information] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+21/12/2023 20:22:13 [Information] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+21/12/2023 20:22:13 [Information] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:22:13 [Information] Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:48:39 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:48:39 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:48:39 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:48:39 [Information] Hosting environment: Development
+21/12/2023 20:48:39 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:48:44 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:48:48 [Information] Executed DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:53:13 [Information] Now listening on: https://localhost:7137
+21/12/2023 20:53:13 [Information] Now listening on: http://localhost:5051
+21/12/2023 20:53:13 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 20:53:13 [Information] Hosting environment: Development
+21/12/2023 20:53:13 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 20:53:18 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 20:53:19 [Information] Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 20:53:24 [Information] Executed DbCommand (97ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+21/12/2023 20:53:25 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 20:53:25 [Warning] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+21/12/2023 20:53:28 [Information] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 20:53:29 [Information] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 20:53:29 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:53:29 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 20:53:31 [Information] Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 20:53:32 [Information] Executed DbCommand (87ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 20:53:32 [Information] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:53:32 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 20:53:33 [Information] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 20:53:34 [Information] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 20:53:34 [Information] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:53:34 [Information] Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 20:53:35 [Information] Executed DbCommand (35ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+21/12/2023 20:53:36 [Information] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+21/12/2023 20:53:36 [Information] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+21/12/2023 20:53:37 [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 21:04:27 [Information] Now listening on: https://localhost:7137
+21/12/2023 21:04:27 [Information] Now listening on: http://localhost:5051
+21/12/2023 21:04:27 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 21:04:27 [Information] Hosting environment: Development
+21/12/2023 21:04:27 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 21:04:32 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 21:04:34 [Information] Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 21:04:43 [Information] Executed DbCommand (72ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 22:42:27 [Information] Now listening on: https://localhost:7137
+21/12/2023 22:42:27 [Information] Now listening on: http://localhost:5051
+21/12/2023 22:42:27 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 22:42:27 [Information] Hosting environment: Development
+21/12/2023 22:42:27 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 22:42:31 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 22:42:35 [Information] Executed DbCommand (99ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 22:42:57 [Information] Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+21/12/2023 23:07:30 [Information] Now listening on: https://localhost:7137
+21/12/2023 23:07:30 [Information] Now listening on: http://localhost:5051
+21/12/2023 23:07:30 [Information] Application started. Press Ctrl+C to shut down.
+21/12/2023 23:07:30 [Information] Hosting environment: Development
+21/12/2023 23:07:30 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+21/12/2023 23:07:36 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+21/12/2023 23:07:43 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+21/12/2023 23:07:57 [Information] Executed DbCommand (62ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+22/12/2023 00:24:22 [Information] Now listening on: https://localhost:7137
+22/12/2023 00:24:22 [Information] Now listening on: http://localhost:5051
+22/12/2023 00:24:22 [Information] Application started. Press Ctrl+C to shut down.
+22/12/2023 00:24:22 [Information] Hosting environment: Development
+22/12/2023 00:24:22 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+22/12/2023 00:24:26 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+22/12/2023 00:24:30 [Information] Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 00:26:17 [Information] Executed DbCommand (134ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+22/12/2023 00:26:18 [Information] Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 00:26:20 [Information] Executed DbCommand (57ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+22/12/2023 00:26:21 [Information] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+22/12/2023 00:26:21 [Information] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+22/12/2023 00:26:21 [Information] Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 00:26:23 [Information] Executed DbCommand (14ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+22/12/2023 00:26:24 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 00:26:47 [Information] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+22/12/2023 00:27:17 [Information] Now listening on: https://localhost:7137
+22/12/2023 00:27:17 [Information] Now listening on: http://localhost:5051
+22/12/2023 00:27:17 [Information] Application started. Press Ctrl+C to shut down.
+22/12/2023 00:27:17 [Information] Hosting environment: Development
+22/12/2023 00:27:17 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+22/12/2023 00:27:23 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+22/12/2023 00:27:27 [Information] Executed DbCommand (130ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 00:27:36 [Information] Executed DbCommand (91ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+22/12/2023 00:27:40 [Information] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+22/12/2023 00:27:40 [Information] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+22/12/2023 00:28:00 [Information] Now listening on: https://localhost:7137
+22/12/2023 00:28:00 [Information] Now listening on: http://localhost:5051
+22/12/2023 00:28:00 [Information] Application started. Press Ctrl+C to shut down.
+22/12/2023 00:28:00 [Information] Hosting environment: Development
+22/12/2023 00:28:00 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+22/12/2023 00:28:07 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+22/12/2023 00:28:11 [Information] Executed DbCommand (64ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 00:28:40 [Information] Executed DbCommand (78ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 00:28:47 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 09:16:23 [Information] Now listening on: https://localhost:7137
+22/12/2023 09:16:23 [Information] Now listening on: http://localhost:5051
+22/12/2023 09:16:23 [Information] Application started. Press Ctrl+C to shut down.
+22/12/2023 09:16:23 [Information] Hosting environment: Development
+22/12/2023 09:16:23 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+22/12/2023 09:16:33 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+22/12/2023 09:16:39 [Information] Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 09:16:59 [Information] Executed DbCommand (81ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+22/12/2023 09:28:19 [Information] Now listening on: https://localhost:7137
+22/12/2023 09:28:19 [Information] Now listening on: http://localhost:5051
+22/12/2023 09:28:19 [Information] Application started. Press Ctrl+C to shut down.
+22/12/2023 09:28:19 [Information] Hosting environment: Development
+22/12/2023 09:28:19 [Information] Content root path: C:\Users\ElieBook\Desktop\WebApplication2\WebApplication2
+22/12/2023 09:28:23 [Warning] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+22/12/2023 09:28:26 [Information] Executed DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:11:30 [Information] Executed DbCommand (102ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+22/12/2023 10:11:30 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:11:33 [Information] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__id_0
+22/12/2023 10:12:03 [Information] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+WHERE [p].[Id] = @__p_0
+22/12/2023 10:12:03 [Information] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Product]
+OUTPUT 1
+WHERE [Id] = @p0;
+22/12/2023 10:12:03 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:15:44 [Information] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+22/12/2023 10:15:44 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 10:16:07 [Information] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+WHERE [c].[Id] = @__id_0
+22/12/2023 10:16:11 [Information] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id]
+FROM [CartItem] AS [c]
+WHERE [c].[Id] = @__p_0
+22/12/2023 10:16:11 [Information] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItem]
+OUTPUT 1
+WHERE [Id] = @p0;
+22/12/2023 10:16:11 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 10:16:12 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:19:09 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:19:15 [Information] Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:19:29 [Information] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = DateTime2), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Product] ([Genre], [Price], [ReleaseDate], [Title], [imagePath])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+22/12/2023 10:19:29 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:19:35 [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:19:44 [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:23:46 [Information] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartItem] ([CartId], [Cart_Id], [ProductId], [Product_Id])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+22/12/2023 10:23:46 [Information] Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 10:23:49 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 10:23:51 [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
+22/12/2023 10:23:52 [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[Cart_Id], [c].[ProductId], [c].[Product_Id], [c0].[Id], [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [CartItem] AS [c]
+LEFT JOIN [Cart] AS [c0] ON [c].[CartId] = [c0].[Id]
+LEFT JOIN [Product] AS [p] ON [c].[ProductId] = [p].[Id]
+22/12/2023 10:24:42 [Information] Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Genre], [p].[Price], [p].[ReleaseDate], [p].[Title], [p].[imagePath]
+FROM [Product] AS [p]
